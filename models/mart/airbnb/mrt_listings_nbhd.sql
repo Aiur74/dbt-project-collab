@@ -8,3 +8,5 @@ avg(price) as avg_price,
 from {{ ref('stg_listings') }}
 group by
 1,2
+
+/*  test */
